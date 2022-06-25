@@ -40,13 +40,13 @@
 | MACE                | _Sonar_ [MLP]             | [N/A]          | [N/A]            | [N/A]            | [N/A]                         |
 | MACE                | _Wave_ [XGBoost, MLP]     | [N/A, N/A]     | [N/A, N/A]       | [N/A, N/A]       | [N/A, N/A]                    |
 | MACE                | _Boston Housing_ [MLP-Reg]| [N/A]          | [N/A]            | [N/A]            | [N/A]                         |
-| ReLAX-Global                                    |  _Breast Cancer_ [RF, MLP]                   | {[}$0.70,0.75${]}                     | {[}$2.39,2.14${]}                   | {[}$4.46,5.92${]}                   | {[}$2100,1200${]}                    |
-| ReLAX-Global                                   | _Diabetes_ [AdaBoost]                  | {[}$0.70${]}                          | {[}$1.50${]}                        | {[}$\mathbf{4.41}${]}               | {[}$2000${]}                         |
-| ReLAX-Global                                   | _Sonar_ [MLP]                              | {[}$0.80${]}                          | {[}$\mathbf{2.79}${]}               | {[}$\mathbf{7.32}${]}               | {[}$1400${]}                         |
-| ReLAX-Global                                   |  _Wave_ [XGBoost, MLP]                   | {[}$0.84,0.83${]}                     | {[}$\mathbf{2.62},\mathbf{2.69}${]} | {[}$\mathbf{5.93},\mathbf{6.38}${]} | {[}$1300,1200${]}                    |
-| ReLAX-Global                                   | _Boston Housing_ [MLP-Reg]             | {[}$0.74${]}                          | {[}$\mathbf{2.41}${]}               | {[}$\mathbf{5.10}${]}               | {[}$1300${]}                         |
-| ReLAX-Local                                   |  _Breast Cancer_ [RF, MLP]                  | {[}$\mathbf{0.78},\mathbf{0.84}${]}   | {[}$2.57,2.22${]}                   | {[}$4.49,\mathbf{5.87}${]}          | {[}$1900,1100${]}                    |
-| ReLAX-Local                                   | _Diabetes_ [AdaBoost]                 | {[}$\mathbf{0.76}${]}                 | {[}$\mathbf{1.49}${]}               | {[}$3.60${]}                        | {[}$\mathbf{1800}${]}                |
-| ReLAX-Local                                   | _Sonar_ [MLP]                            | {[}$\mathbf{0.97}${]}                 | {[}$3.04${]}                        | {[}$7.66${]}                        | {[}$1000${]}                         |
-| ReLAX-Local                                   |  _Wave_ [XGBoost, MLP]                   | {[}$\mathbf{0.88},\mathbf{0.91}${]}   | {[}$2.67,2.71${]}                   | {[}$6.02,6.50${]}                   | {[}$\mathbf{1100},1340${]}           |
-| ReLAX-Local                                   | _Boston Housing_ [MLP-Reg]          | {[}$\mathbf{0.81}${]}                 | {[}$2.57${]}                        | {[}$5.36${]}                        | {[}$\mathbf{1000}${]}                |
+| ReLAX-Global        |  _Breast Cancer_ [RF, MLP]| [$0.70,0.75$]  | [$2.39,2.14$]    | [$4.46,5.92$]    | [$2100,1200$]                 |
+| ReLAX-Global        | _Diabetes_ [AdaBoost]     | [$0.70$]       | [$1.50$]         | [$\mathbf{4.41}$]| [$2000$]                      |
+| ReLAX-Global        | _Sonar_ [MLP]             | [$0.80$]       | [$\mathbf{2.79}$]| [$\mathbf{7.32}$]| [$1400$]                      |
+| ReLAX-Global        |  _Wave_ [XGBoost, MLP]    | [$0.84,0.83$]  | [$\mathbf{2.62},\mathbf{2.69}$] | [$\mathbf{5.93},\mathbf{6.38}$] | [$1300,1200$] |
+| ReLAX-Global        | _Boston Housing_ [MLP-Reg]| [$0.74$]       | [$\mathbf{2.41}$]| [$\mathbf{5.10}$]| [$1300$]                      |
+| ReLAX-Local         |  _Breast Cancer_ [RF, MLP]| [$\mathbf{0.78},\mathbf{0.84}$]   | [$2.57,2.22$]    | [$4.49,\mathbf{5.87}$] | [$1900,1100$]      |
+| ReLAX-Local         | _Diabetes_ [AdaBoost]     | [$\mathbf{0.76}$] | [$\mathbf{1.49}$] | [$3.60$]     | [$\mathbf{1800}$]             |
+| ReLAX-Local         | _Sonar_ [MLP]             | [$\mathbf{0.97}$] | [$3.04$]          | [$7.66$]     | [$1000$]                      |
+| ReLAX-Local         |  _Wave_ [XGBoost, MLP]    | [$\mathbf{0.88},\mathbf{0.91}$] | [$2.67,2.71$]  | [$6.02,6.50$] | [$\mathbf{1100},1340$]          |
+| ReLAX-Local         | _Boston Housing_ [MLP-Reg]| [$\mathbf{0.81}$] | [$2.57$]    | [$5.36$]       | [$\mathbf{1000}$]                 |
