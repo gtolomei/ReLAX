@@ -1,15 +1,15 @@
-| **CF Method**                      | **Dataset [Models]**                                    | _**Validity**_                        | _**Sparsity**_                      | _**Proximity**_                     | _**Generation Time (secs.)**_        |
-|------------------------------------|---------------------------------------------------------|---------------------------------------|-------------------------------------|-------------------------------------|--------------------------------------|
-|                                    | _Breast Cancer_ [RF, MLP]                               | {[}$1,1${]}                           | {[}$29.98, 29.52${]}                | {[}$18.05, 10.78${]}                | {[}$0.10, 0.08${]}                   |
-|                                    | _Diabetes_ [AdaBoost]                                   | {[}0{]}                               | {[}inf{]}                           | {[}inf{]}                           | {[}inf{]}                            |
-|                                    | _Sonar_ [MLP]                                           | {[}$1${]}                             | {[}$59.76${]}                       | {[}$30.33${]}                       | {[}$0.12${]}                         |
-|                                    | _Wave_ [XGBoost, MLP]                                   | {[}$1,1${]}                           | {[}$20.86, 20.83${]}                | {[}$14.03, 12.02${]}                | {[}$0.08, 0.08${]}                   |
-|                                    | \textit{Boston Housing} {[}{\sc MLP-Reg}{]}             | {[}N/A{]}                             | {[}N/A{]}                           | {[}N/A{]}                           | {[}N/A{]}                            |
-|                                    | \textit{Breast Cancer} {[}RF, MLP{]}                    | {[}$0.70$, N/A{]}                     | {[}$2.42$, N/A{]}                   | {[}$\mathbf{4.20}$, N/A{]}          | {[}$2200$, N/A{]}                    |
-|                                    | \textit{Diabetes} {[}{\sc AdaBoost}{]}                  | {[}N/A{]}                             | {[}N/A{]}                           | {[}N/A{]}                           | {[}N/A{]}                            |
-|                                    | \textit{Sonar} {[}MLP{]}                                | {[}N/A{]}                             | {[}N/A{]}                           | {[}N/A{]}                           | {[}N/A{]}                            |
-|                                    | \textit{Wave} {[}{\sc XGBoost}, MLP{]}                  | {[}N/A, N/A{]}                        | {[}N/A, N/A{]}                      | {[}N/A, N/A{]}                      | {[}N/A, N/A{]}                       |
-|                                    | \textit{Boston Housing} {[}{\sc MLP-Reg}{]}             | {[}N/A{]}                             | {[}N/A{]}                           | {[}N/A{]}                           | {[}N/A{]}                            |
+| **CF Method**       | **Dataset [Models]**      | _**Validity**_ | _**Sparsity**_   | _**Proximity**_  | _**Generation Time (secs.)**_ |
+|---------------------|---------------------------|----------------|------------------|------------------|-------------------------------|
+| Nearest-CT          | _Breast Cancer_ [RF, MLP] | [$1,1$]        | [$29.98, 29.52$] | [$18.05, 10.78$] | [$0.10, 0.08$]                |
+| Nearest-CT          | _Diabetes_ [AdaBoost]     | [$0$]          | [inf]            | [inf]            | [inf]                         |
+| Nearest-CT          | _Sonar_ [MLP]             | [$1$]          | [$59.76$]        | [$30.33$]        | [$0.12$]                      |
+| Nearest-CT          | _Wave_ [XGBoost, MLP]     | [$1,1$]        | [$20.86, 20.83$] | [$14.03, 12.02$] | [$0.08,0.08$]                 |
+| Nearest-CT          | _Boston Housing_ [MLP-Reg]| [N/A]          | [N/A]            | [N/A]            | [N/A]                         |
+| FeatTweak           | _Breast Cancer_ [RF, MLP] | [$0.70$, N/A]  | [$2.42$, N/A]    | [$\mathbf{4.20}$, N/A]| [$2200$, N/A]            |
+| FeatTweak           | _Diabetes_ [AdaBoost]     | [N/A]          | [N/A]            | [N/A]            | [N/A]                         |                 
+| FeatTweak           | _Sonar_ [MLP]             | [N/A]          | [N/A]            | [N/A]            | [N/A]                         |
+| FeatTweak           | _Wave_ [XGBoost, MLP]     | [N/A]          | [N/A]            | [N/A]            | [N/A]                         |
+| FeatTweak           | _Boston Housing_ [MLP-Reg]| [N/A]          | [N/A]            | [N/A]            | [N/A]                         |
 |                                    | \textit{Breast Cancer} {[}RF, MLP{]}                    | {[}$0.66$, N/A{]}                     | {[}$2.60$, N/A{]}                   | {[}$4.39$, N/A{]}                   | {[}$\mathbf{120}$, N/A{]}            |
 |                                    | \textit{Diabetes} {[}{\sc AdaBoost}{]}                  | {[}N/A{]}                             | {[}N/A{]}                           | {[}N/A{]}                           | {[}N/A{]}                            |
 |                                    | \textit{Sonar} {[}MLP{]}                                | {[}N/A{]}                             | {[}N/A{]}                           | {[}N/A{]}                           | {[}N/A{]}                            |
